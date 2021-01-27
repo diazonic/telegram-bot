@@ -78,4 +78,4 @@ def main():
   dp.add_handler(MessageHandler(Filters.text, chooser))
   u.start_polling()
   u.idle()
-main()  
+main()
