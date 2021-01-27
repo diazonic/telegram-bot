@@ -1,3 +1,6 @@
+#adafruit part
+!pip install python-telegram-bot
+!pip install adafruit-io
 x = 'Diazonic' # AIO-Username
 y= 'bb69d720de4446128cbbf7bcae1531a4' #AIO-Key
 
@@ -78,4 +81,3 @@ def main():
   dp.add_handler(MessageHandler(Filters.text, chooser))
   u.start_polling()
   u.idle()
-main()
