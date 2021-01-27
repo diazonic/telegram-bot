@@ -1,1 +1,1 @@
-worker : python mybot.py
+web: sh setup.sh && python mybot.py
