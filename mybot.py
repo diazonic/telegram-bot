@@ -1,6 +1,6 @@
 
-x = 'Diazonic' # AIO-Username
-y= 'bb69d720de4446128cbbf7bcae1531a4' #AIO-Key
+x = '' # AIO-Username
+y= ' ' #AIO-Key
 
 from Adafruit_IO import Client, Feed
 aio = Client(x,y)
@@ -73,7 +73,7 @@ def chooser(bot,update):
                 }
 
 def main():
-  BOT_TOKEN= '1399670762:AAFaWQo6_Gmx754-9mzwxiLdwg8xRGfC3Fw'
+  BOT_TOKEN= ' '
   u = Updater(BOT_TOKEN, use_context=True)
   dp = u.dispatcher
   dp.add_handler(MessageHandler(Filters.text, chooser))
